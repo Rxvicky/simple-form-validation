@@ -59,8 +59,8 @@ function setError(element,message){
     const errorElement=inputGroup.querySelector('.error');
 
     errorElement.innerText=message;
-    inputGroup.classList.add('.error')
-    inputGroup.classList.remove('.success')
+    inputGroup.classList.add('error')
+    inputGroup.classList.remove('success')
 }
 //function for set success details
 function setsucces(element){
@@ -68,8 +68,8 @@ function setsucces(element){
     const errorElement=inputGroup.querySelector('.error');
 
     errorElement.innerText='';
-    inputGroup.classList.add('.success')
-    inputGroup.classList.remove('.error')
+    inputGroup.classList.add('success')
+    inputGroup.classList.remove('error')
 }
 //function for email validation
 const validateEmail=(email)=>{
