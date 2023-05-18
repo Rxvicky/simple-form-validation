@@ -35,8 +35,8 @@ function validateInputs(){
    if(passwordInput===''){
     setError(password,'password is required')
    }
-   else if(passwordInput<8){
-    setError(password,'passwor must be atlest 8 character long')
+   else if(passwordInput > 8){
+    setError(password,'password must be atlest 8 character long')
    }
    else {
     setsucces(password)
